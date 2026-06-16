@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pygitguardian
-  version: "1.31.0"
+  version: "1.32.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pygitguardian-${{ version }}.tar.gz
-  sha256: ee3892409ff07152f92d88e0db2b99e8075dda5783716f7ef89593b1ead773c1
+  sha256: 2bc9880c139dee3692bff369a10d42e99f58e4122358ce0d632b51e250e90252
 
 build:
   number: 0
